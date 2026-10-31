@@ -15,7 +15,7 @@ Move slow work behind a broker and worker, return a job ID, and expose job statu
 
 ## Article and local example
 
-The Medium article is forthcoming. Use Python 3.10+ and a local Redis server. In a new environment, install `python -m pip install -r requirements.txt`. Start Redis, then in separate terminals from this folder run:
+Read [the article on Medium](https://medium.com/@horiabe/a-celery-worker-does-not-automatically-make-an-api-asynchronous-5278ae28518b). Use Python 3.10+ and a local Redis server. In a new environment, install `python -m pip install -r requirements.txt`. Start Redis, then in separate terminals from this folder run:
 
 ```bash
 celery -A app.celery worker --loglevel=info --pool=solo
