@@ -8,7 +8,7 @@ Companion code for Horia Beschea's Smallsteps Medium series on building and eval
 | 2 | [Run repeatable inference](02-repeatable-inference/) | [Read on Medium](https://medium.com/@horiabe/your-model-loaded-successfully-are-the-predictions-still-meaningful-459e30f8037a?sharedUserId=horiabe) |
 | 3 | [Serve a TensorFlow model](03-serve-model/) | [Read on Medium](https://medium.com/@horiabe/serving-a-model-is-a-contract-not-just-a-container-19673992d66d?sharedUserId=horiabe) |
 | 4 | [Protect evaluation data in a feedback loop](04-feedback-and-retraining/) | [Read on Medium](https://medium.com/@horiabe/your-feedback-loop-can-make-your-test-score-lie-19cb9a4ac3e7) |
-| 5 | [Build an inference API](05-inference-api/) | Forthcoming |
+| 5 | [Build an inference API](05-inference-api/) | [Read on Medium](https://medium.com/@horiabe/give-your-model-api-a-contract-you-can-test-cbec701295a7?sharedUserId=horiabe) |
 | 6 | [Deploy services to Kubernetes](06-kubernetes-deployment/) | Forthcoming |
 | 7 | [Queue jobs with Celery](07-celery-workers/) | Forthcoming |
 | 8 | [Measure processing delays](08-observability/) | Forthcoming |
