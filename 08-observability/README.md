@@ -15,4 +15,4 @@ Follow a job from API submission through queue, worker, and inference. Identify 
 
 ## Article and example
 
-The Medium article is forthcoming. Run `python observe.py --queue-delay 0.2 --model-delay 0.1` and compare it with `python observe.py --queue-delay 1 --model-delay 0.1`. The JSON shows simulated durations and a job ID; it does not implement Prometheus or distributed tracing. A short run passed locally.
+Read [the article on Medium](https://medium.com/@horiabe/a-slow-ml-job-has-more-than-one-clock-12148e3dc370). Run `python observe.py --queue-delay 0.2 --model-delay 0.1` and compare it with `python observe.py --queue-delay 1 --model-delay 0.1`. The JSON shows simulated durations and a job ID; it does not implement Prometheus or distributed tracing. A short run passed locally.
