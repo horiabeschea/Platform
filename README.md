@@ -1,11 +1,11 @@
 # Smallsteps ML Platform Examples
 
-Companion code for Horia Beschea's Smallsteps Medium series on building and evaluating an agent-assisted machine-learning platform. The article links will be added when the posts are available.
+Companion code for Horia Beschea's Smallsteps Medium series on building and evaluating an agent-assisted machine-learning platform. Article links are added as the posts become available.
 
 | Lesson | Example | Medium post |
 | --- | --- | --- |
-| 1 | [Train a multi-label classifier](01-train-classifier/) | Forthcoming |
-| 2 | [Run repeatable inference](02-repeatable-inference/) | Forthcoming |
+| 1 | [Train a multi-label classifier](01-train-classifier/) | [Read on Medium](https://medium.com/@horiabe/train-a-multi-label-image-classifier-you-can-evaluate-1d857a56672e?sharedUserId=horiabe) |
+| 2 | [Run repeatable inference](02-repeatable-inference/) | [Read on Medium](https://medium.com/@horiabe/your-model-loaded-successfully-are-the-predictions-still-meaningful-459e30f8037a?sharedUserId=horiabe) |
 | 3 | [Serve a TensorFlow model](03-serve-model/) | Forthcoming |
 | 4 | [Protect evaluation data in a feedback loop](04-feedback-and-retraining/) | Forthcoming |
 | 5 | [Build an inference API](05-inference-api/) | Forthcoming |
