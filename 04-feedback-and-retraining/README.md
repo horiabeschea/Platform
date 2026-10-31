@@ -1,6 +1,6 @@
 # Lesson 4: Feedback and Test-Set Protection
 
-The Medium article is forthcoming. Run the synthetic example using Python 3.10 or newer:
+Read [the article on Medium](https://medium.com/@horiabe/your-feedback-loop-can-make-your-test-score-lie-19cb9a4ac3e7). Run the synthetic example using Python 3.10 or newer:
 
 ```bash
 python feedback.py

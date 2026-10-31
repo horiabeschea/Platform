@@ -7,7 +7,7 @@ Companion code for Horia Beschea's Smallsteps Medium series on building and eval
 | 1 | [Train a multi-label classifier](01-train-classifier/) | [Read on Medium](https://medium.com/@horiabe/train-a-multi-label-image-classifier-you-can-evaluate-1d857a56672e?sharedUserId=horiabe) |
 | 2 | [Run repeatable inference](02-repeatable-inference/) | [Read on Medium](https://medium.com/@horiabe/your-model-loaded-successfully-are-the-predictions-still-meaningful-459e30f8037a?sharedUserId=horiabe) |
 | 3 | [Serve a TensorFlow model](03-serve-model/) | [Read on Medium](https://medium.com/@horiabe/serving-a-model-is-a-contract-not-just-a-container-19673992d66d?sharedUserId=horiabe) |
-| 4 | [Protect evaluation data in a feedback loop](04-feedback-and-retraining/) | Forthcoming |
+| 4 | [Protect evaluation data in a feedback loop](04-feedback-and-retraining/) | [Read on Medium](https://medium.com/@horiabe/your-feedback-loop-can-make-your-test-score-lie-19cb9a4ac3e7) |
 | 5 | [Build an inference API](05-inference-api/) | Forthcoming |
 | 6 | [Deploy services to Kubernetes](06-kubernetes-deployment/) | Forthcoming |
 | 7 | [Queue jobs with Celery](07-celery-workers/) | Forthcoming |
