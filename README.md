@@ -12,7 +12,7 @@ Companion code for Horia Beschea's Smallsteps Medium series on building and eval
 | 6 | [Deploy services to Kubernetes](06-kubernetes-deployment/) | [Read on Medium](https://medium.com/@horiabe/your-kubernetes-pod-is-running-is-your-model-ready-22ff85531ab6?sharedUserId=horiabe) |
 | 7 | [Queue jobs with Celery](07-celery-workers/) | [Read on Medium](https://medium.com/@horiabe/a-celery-worker-does-not-automatically-make-an-api-asynchronous-5278ae28518b) |
 | 8 | [Measure processing delays](08-observability/) | [Read on Medium](https://medium.com/@horiabe/a-slow-ml-job-has-more-than-one-clock-12148e3dc370) |
-| 9 | [Check a model contract in CI](09-ci-and-delivery/) | Forthcoming |
+| 9 | [Check a model contract in CI](09-ci-and-delivery/) | [Read on Medium](https://medium.com/@horiabe/a-passing-build-is-not-evidence-that-your-ml-contract-still-works-4a7f81dcb24c) |
 
 ## Getting started
 

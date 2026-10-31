@@ -15,4 +15,4 @@ Build a pipeline that runs focused tests, builds images, and validates the model
 
 ## Article and example
 
-The Medium article is forthcoming. Run `python -m unittest -v test_contract` from this directory with Python 3.10+. The accompanying Jenkinsfile is an illustrative pipeline with a test stage and a promotion placeholder. It requires a Unix-like Jenkins agent with Python 3 and the repository checked out. It does not build or deploy artifacts. Tests passed locally; Jenkins itself was not run.
+Read [the article on Medium](https://medium.com/@horiabe/a-passing-build-is-not-evidence-that-your-ml-contract-still-works-4a7f81dcb24c). Run `python -m unittest -v test_contract` from this directory with Python 3.10+. The accompanying Jenkinsfile is an illustrative pipeline with a test stage and a promotion placeholder. It requires a Unix-like Jenkins agent with Python 3 and the repository checked out. It does not build or deploy artifacts. Tests passed locally; Jenkins itself was not run.
