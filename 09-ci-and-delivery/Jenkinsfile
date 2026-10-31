@@ -1,0 +1,17 @@
+pipeline {
+    agent any
+    stages {
+        stage('Contract tests') {
+            steps {
+                dir('09-ci-and-delivery') {
+                    sh 'python3 -m unittest -v test_contract'
+                }
+            }
+        }
+        stage('Promotion placeholder') {
+            steps {
+                echo 'Tests passed. Configure an artifact registry and deployment separately.'
+            }
+        }
+    }
+}

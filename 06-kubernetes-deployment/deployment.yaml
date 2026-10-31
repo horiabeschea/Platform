@@ -1,0 +1,77 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lesson-model
+spec:
+  replicas: 1
+  selector:
+    matchLabels: {app: lesson-model}
+  template:
+    metadata:
+      labels: {app: lesson-model}
+    spec:
+      containers:
+        - name: model
+          image: smallsteps-lesson:local
+          imagePullPolicy: IfNotPresent
+          env:
+            - name: ROLE
+              value: model
+          ports:
+            - containerPort: 8080
+          readinessProbe:
+            httpGet: {path: /ready, port: 8080}
+            periodSeconds: 3
+          resources:
+            requests: {cpu: 50m, memory: 64Mi}
+            limits: {memory: 128Mi}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: lesson-model
+spec:
+  selector: {app: lesson-model}
+  ports:
+    - port: 8080
+      targetPort: 8080
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lesson-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels: {app: lesson-api}
+  template:
+    metadata:
+      labels: {app: lesson-api}
+    spec:
+      containers:
+        - name: api
+          image: smallsteps-lesson:local
+          imagePullPolicy: IfNotPresent
+          env:
+            - name: ROLE
+              value: api
+            - name: MODEL_URL
+              value: http://lesson-model:8080
+          ports:
+            - containerPort: 8080
+          readinessProbe:
+            httpGet: {path: /ready, port: 8080}
+            periodSeconds: 3
+          resources:
+            requests: {cpu: 50m, memory: 64Mi}
+            limits: {memory: 128Mi}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: lesson-api
+spec:
+  selector: {app: lesson-api}
+  ports:
+    - port: 8080
+      targetPort: 8080
