@@ -15,7 +15,7 @@ Package and deploy the API and model server using Deployments and Services. Expl
 
 ## Article and example
 
-The Medium article is forthcoming. The sample uses mock HTTP services rather than a real model. Prerequisites: Docker, kubectl, and an existing local kind cluster named `kind`; adjust the cluster name if yours differs. Run from this folder in a shell:
+Read [the article on Medium](https://medium.com/@horiabe/your-kubernetes-pod-is-running-is-your-model-ready-22ff85531ab6?sharedUserId=horiabe). The sample uses mock HTTP services rather than a real model. Prerequisites: Docker, kubectl, and an existing local kind cluster named `kind`; adjust the cluster name if yours differs. Run from this folder in a shell:
 
 ```bash
 docker build -t smallsteps-lesson:local .
