@@ -1,6 +1,6 @@
 # Lesson 3: TensorFlow Serving
 
-The Medium article is forthcoming. Train the model in lesson one first and install its TensorFlow dependency in your environment. From this folder:
+Read [the article on Medium](https://medium.com/@horiabe/serving-a-model-is-a-contract-not-just-a-container-19673992d66d?sharedUserId=horiabe). Train the model in lesson one first and install its TensorFlow dependency in your environment. From this folder:
 
 ```bash
 python export.py
